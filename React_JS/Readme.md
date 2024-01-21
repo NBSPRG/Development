@@ -4,4 +4,8 @@ I have created all these project for a thorough understanding of React Js which 
 
 It includes :-
 
-1. Custom DOM
+1. Custom React DOM :- To understand how DOM works in react.
+
+2. Myapp :- Basic react App with all the required dependecies.
+
+3. 

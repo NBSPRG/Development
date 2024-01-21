@@ -8,4 +8,6 @@ It includes :-
 
 2. Myapp :- Basic react App with all the required dependecies.
 
-3. 
+3. Vite-Project :- React with Vite
+
+4. TailwindProps :- How tailwind can be incorporated with React Js

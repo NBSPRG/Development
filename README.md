@@ -4,6 +4,8 @@
 
 2. Big Data Analytics Lab
 
+3. React Js Projects
+
 ## Tech Stacks:
 
 1. HTML
@@ -15,3 +17,7 @@
 4. SQL
 
 5. Node Js
+
+6. React Js
+
+7. Monogo DB

@@ -1,61 +1,90 @@
 # GrowPlanet
+
 Project for Google Cloud India Hackathon in Collaboration with GFG
 
-Grow Planet
+## Grow Planet
 
 By Team Aogiri Tree IIIT Allahabad
 
-Video : [Grow Planet ](https://www.youtube.com/watch?v=s6tjEqioBhg)
+- **Video**: [Grow Planet](https://www.youtube.com/watch?v=s6tjEqioBhg)
+- **Live Demo**: [Grow Planet Website](https://grow-planet.cyclic.app/)
 
-Live Demo : [Grow Planet Website](https://grow-planet.cyclic.app/)
+Our vision is to help farmers with every information required to grow crops in a single place to assist growth of crops. Though we are primarily focusing on India now, we have a greater vision to help farmers all over the world at a later stage. That’s where Grow Planet kicked in.
 
-Our vision is to help farmers with every information required to grow crops in a single place to
-assist growth of crops. Though we are primarily focusing on India now, we have a greater vision
-to help farmers all over the world at a later stage. That’s where Grow planet kicked in.
+### Project-Theme: Agro-Tech
 
-Project-Theme: Agro-Tech
+---
 
-Project Description:
+## Project Description:
 
-Farmers face a lot of problems in finding correct fertilizers for crops, and correct crops for their
-fields. Even if they manage to grow crops successfully, they fail to sell them at a proper price.
-Moreover they miss on important news related to government subsidies on crops or new ways to
-farm like organic farming, terrace farming to name a few. Our project has a mission to solve all
-this problems and become a one-stop solution for all the farmers out there.
+Farmers face a lot of problems in finding correct fertilizers for crops, and correct crops for their fields. Even if they manage to grow crops successfully, they fail to sell them at a proper price. Moreover, they miss out on important news related to government subsidies on crops or new farming methods like organic farming, terrace farming, etc. Our project aims to solve all these problems and become a one-stop solution for all farmers.
 
-1. Plantopedia:
-If a farmer wants to search info about how to grow a specific crop, our database provides him
-with all the info required to grow it and what profitability he can expect of that crop. He gets
-info about the following parameters: crop description, soil type required, water, fertilizer,
-temperature required, time required to grow, nutrition required and cost required per unit area.
+### Key Features:
 
-2. PlantLab:
-Farmers with the use of latitudinal and longitudinal information will use that data to get the
-nitrogen, phosphorus, potassium, humidity, rainfall, ph, temperature of that area to get the best
-possible crop for that location.
+1. **Plantopedia**:
+   - Provides comprehensive information about growing specific crops.
+   - Details include crop description, soil type, water and fertilizer requirements, temperature, growth time, nutrition, and cost per unit area.
 
-3. SellHere:
-Farmer inputs his location and crop to sell in our mandi and he gets the most economic
-mandi to sell his crop at a profitable price.
+2. **PlantLab**:
+   - Uses latitudinal and longitudinal data to determine the best possible crop for a location.
+   - Analyzes nitrogen, phosphorus, potassium, humidity, rainfall, pH, and temperature data.
 
-4. News:
-Farmers will get all the news related to the farming world. He will also get the latest
-information about subsidies announced by the government.
+3. **SellHere**:
+   - Helps farmers find the most economic mandi to sell their crops at a profitable price based on their location and crop type.
 
-5. Disease-Predictor:
-With the use of PlantId Api, we will provide info to the farmer on what disease has
-infected his crop and what measures to take based on the photos of the plant he
-provides to us.
+4. **News**:
+   - Delivers the latest news related to farming, including government subsidies and new farming techniques.
 
-6. Produce bidding system: A farmer can state their crops and it's quantity available with a base price on it. 
-The buyer (mainly wholesalers) can state his price and place a bid which he thinks is ideal.
-Now, the farmer can choose to sell his crop to someone based on the bids of wholesalers he finds suitable to.
-We have provided contact info of both farmer and buyer if they want to bargain about the prices or want to know more about the quality of produce
+5. **Disease-Predictor**:
+   - Uses PlantId API to identify crop diseases from photos and provides measures to take for each identified disease.
 
-Technology Used:
+6. **Produce Bidding System**:
+   - Allows farmers to list their crops and quantity with a base price.
+   - Buyers (mainly wholesalers) can place bids, and farmers can choose to sell based on the bids.
+   - Contact information is provided for both farmers and buyers to facilitate negotiations.
 
-1. Front-End: EJS, CSS, HTML, JS
-2. Back-End: NodeJs, ExpressJs
-3. Database: MySQL
-4. API: PlantId, NewsAPI
-5. ML Model: SVM
+---
+
+## Technology Used:
+
+1. **Front-End**: EJS, CSS, HTML, JavaScript
+2. **Back-End**: NodeJs, ExpressJs
+3. **Database**: MySQL
+4. **APIs**: PlantId, NewsAPI
+5. **Machine Learning Model**: SVM
+
+---
+
+## How to Run GrowPlanet Software
+
+### Pre-requisite Software:
+
+- Node.js (version 16 or above)
+- NPM (version 8 or above)
+- MySQL
+
+### Steps to Set Up Environment:
+
+1. Download Node.js from the official Node.js website for Windows. On Ubuntu, run `sudo apt install nodejs`.
+2. Verify Node.js installation with `node -v`.
+3. Download NPM from the official NPM website for Windows. On Ubuntu, run `sudo apt-get install npm`.
+4. Download the SQL files from the grow_planet.zip.
+5. Run the SQL queries in MySQL to create the database.
+   - Note: The database name should be `grow_planet`, and the username and password for connecting to MySQL should be adjusted in the code accordingly.
+
+### Steps to Run:
+
+1. Unzip `grow_planet.zip` to get all content in a folder.
+2. Change directory to the `src` directory.
+3. Open terminal in the `src` directory.
+4. Run `npm install`. If there is an error, run `npm install ejs body-parser express mysql2`.
+5. Start the server with `node server.js`.
+6. Access the project in your browser at `localhost:3000`.
+
+---
+
+## Important Notes:
+
+- Ubuntu might install older versions of Node.js and NPM. Ensure that you are using the latest versions.
+- Some browsers may not allow JavaScript to run. Adjust your browser settings to enable JavaScript.
+- If the program crashes, close the browser window and re-run `node server.js` in the `src` directory.

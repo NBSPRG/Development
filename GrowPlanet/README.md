@@ -88,5 +88,4 @@ Farmers face a lot of problems in finding correct fertilizers for crops, and cor
 - Ubuntu might install older versions of Node.js and NPM. Ensure that you are using the latest versions.
 - Some browsers may not allow JavaScript to run. Adjust your browser settings to enable JavaScript.
 - If the program crashes, close the browser window and re-run `node server.js` in the `src` directory.
-- 
 

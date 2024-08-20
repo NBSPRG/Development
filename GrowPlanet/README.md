@@ -31,16 +31,29 @@ Farmers face a lot of problems in finding correct fertilizers for crops, and cor
 
 3. **SellHere**:
    - Helps farmers find the most economic mandi to sell their crops at a profitable price based on their location and crop type.
+     
+   
 
-4. **News**:
+5. **News**:
+   - It is an independent service, irrespective of the dependency on any of other services like plantopedia, Plant Lab and Disease Predictor or SellHere
    - Delivers the latest news related to farming, including government subsidies and new farming techniques.
+   - We have used the News API which helps to know the recent trends in the agriculture and its domain.
 
-5. **Disease-Predictor**:
+6. **Disease-Predictor**:
    - Uses PlantId API to identify crop diseases from photos and provides measures to take for each identified disease.
 
-6. **Produce Bidding System**:
+7. **Produce Bidding System**:
    - Allows farmers to list their crops and quantity with a base price.
-   - Buyers (mainly wholesalers) can place bids, and farmers can choose to sell based on the bids.
+   - We have two categories here:
+     
+   a. Farmers
+   b. Business Men/Wholesalers
+
+   ***Farmer*** :- Farmers have been provided features to bid their fully grown crops among different business men.
+
+   ***Business Men/Wholesalers*** :- All the interested will bid for his/her crops with a minimum price above than the bid price of the crops.
+   Bid won't be possible if someone bids less than base price. It will give error.
+
    - Contact information is provided for both farmers and buyers to facilitate negotiations.
 
 ---
